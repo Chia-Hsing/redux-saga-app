@@ -1,3 +1,3 @@
 export * from './store'
-export * as actionCreators from './slice'
+export { selectAll, fetchData } from './slice'
 export type { Dispatch, RootState, AppThunk } from './store'
